@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/queries.css" type="text/css">
+</head>
+<body>
+ <header>
+      <div class="main-nav">
+         <div class="logo">
+             <a href="index.html">I Script</a>
+         </div>
+        <div class="toggle-meun">
+             <span class="bar"></span>   
+         </div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Apartment</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Login/sign-up</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Sell</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">About</a>
+            </li>
+        </ul>
+        </div>
+    </header>
+  <section class="hero">
+      <div class="hero-clipped">
+          <div class="hero-textbox">
+              <h1 class="main-heading">I Script</h1>
+              <h2 class="sub-heading">learn about our awesomeness</h2>
+              <a href="#" class="cta-btn">Learn More.</a>
+          </div>
+      </div>
+  </section>  
+  
+<script>
+    const mainNav = document.querySelector('.main-nav');
+    const toggleMeun = document.querySelector('.toggle-meun');
+    
+    toggleMeun.addEventListener('click', function(){
+        mainNav.classList.toggle('open');
+    });
+    
+</script>
+</body>
+</html>

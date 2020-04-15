@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1023px){
+    .hero-clipped{
+        width: 100%;
+        height: 75vh;
+        clip-path: polygon(0 0,100% 0, 100% 100%, 0 60%);
+    }
+    .logo a{
+        color: #333;
+        outline-color: #333;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .nav-list{
+        width: 30rem;
+    }
+    .main-heading{
+        font-size: 4rem
+    }
+    .sub-heading{
+        font-size: 1.2rem;
+    }
+    .cta-btn{
+        padding: 1rem 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .main-heading{
+        font-size: 2.5rem
+    }s
+    .sub-heading{
+        font-size: 1rem;
+    }
+    .cta-btn{
+        margin-top: 3rem;
+    }
+}
+
+
